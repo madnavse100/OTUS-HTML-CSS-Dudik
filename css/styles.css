@@ -1,69 +1,49 @@
-@font-face {
-  font-family: "Butler";
-  src: url(/fonts/Butler_Regular.otf);
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Butler_Medium.otf);
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url(/fonts/Roboto-Bold.ttf);
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
 body {
-  width: 1440px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #000;
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1065px;
   margin: 0 auto;
 }
-
-.hero_section {
-  width: 1065px;
+.studio-bg {
   height: 630px;
-  margin: 135px 188px 135px 188px;
-  background: url(../img/hero-sect.jpg);
+  background-image: url(../img/hero-sect.jpg);
+  background-repeat: no-repeat;
+  margin: 135px 0;
   position: relative;
 }
 
-.white_square {
+.studio-card {
   width: 557px;
   height: 355px;
-  margin: 137px 254px 138px 254px;
+  background-color: white;
   position: absolute;
-  top: -10px;
-}
-
-.hero_logo {
-  position: absolute;
-  margin: 267px 301px 268px 302px;
-  z-index: 1;
+  top: 50%;
+  margin-top: -178px;
+  left: 50%;
+  margin-left: -279px;
   text-align: center;
 }
 
-.hero_logo h1 {
-  font-family: "Butler";
+h1 {
   font-size: 87px;
-  line-height: 104px;
-  font-style: normal;
-  font-weight: normal;
-  margin: 9px;
+  font-weight: 400;
+  margin-top: 130px;
 }
 
-.hero_logo h2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+span {
+  font-weight: 600;
   font-size: 18px;
-  line-height: 21px;
-  margin: 9px;
+  margin-top: 18px;
 }
